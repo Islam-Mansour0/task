@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Islam Mansour</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- onclic()  && ondblclick() && onmouseover()&&onmouseout()-->
+     <!-- Start challenge 1: -->
+    <div class="container">
+      <h2 id="count">0</h2>
+
+
+      <button class="btn-inc" onclick="increment()">Increment</button>
+      <button class="btn-dec" onclick="decrement()">Decrement</button>
+    </div>
+
+
+     <!-- Start challenge 2: -->
+
+     <div class="main">
+         <div>
+            <h2> Count The Dollar Page:</h2>
+         </div>
+        <form onsubmit=" return validate()">
+           <input type="text" name="TXT" id="convt" placeholder="Please,Type The Number to Be Converted">
+           <input type="submit">
+           <h3 id="res"></h3>
+        </form>
+     </div>
+     
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

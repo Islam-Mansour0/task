@@ -1,0 +1,99 @@
+body{
+    background-image:linear-gradient(#234d50,transparent);
+    background-repeat: no-repeat;
+   
+}
+.container {
+  background-color: rgb(63, 63, 63);
+  height: 250px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  transition: all 2s ease-out;
+}
+.container h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+.container .btn-inc {
+  color: rgb(78, 254, 14);
+  background-color: #434242;
+  margin: 20px;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+.container .btn-dec {
+  color: red;
+  background-color: #434242;
+  margin: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+
+/* Start Challenge 2: */
+.main{
+   height:400px;
+   width: 90%;
+   margin: 30px;
+   border-radius: 30px;
+   background-image:linear-gradient(#585858,#3b6d70);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.main h2{
+    font-size: 30px;
+    color:white;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+}
+.main form {
+     width: 70%;
+     transition: all 2s ease-out;
+     margin-bottom: 30px;
+     
+}
+
+::placeholder{
+    color:white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.main form input{
+    width: 100%;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    background-color:#34896b;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+ 
+}
+ .main form input:hover{
+    transform: scale(1.1);
+} 
+
+#res{
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+}
